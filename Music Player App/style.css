@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower&display=swap");
+
+body {
+  font-family: "Indie Flower", cursive;
+  /*background: radial-gradient(#9696e4, #4545ee);*/
+  background: url("img/img1.jpg") center/cover;
+  font-size: 1.2em;
+  width: 50%;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+  min-height: 50vh;
+}
+
+#songList {
+  background: linear-gradient(grey, white, black);
+  opacity: 0.8;
+  border-radius: 10px;
+  text-align: left;
+}
+
+li {
+  padding: 15px;
+  font-weight: bolder;
+  text-shadow: -1px 1px grey, 1px 2px white;
+}
+
+li:hover,
+svg:hover {
+  cursor: pointer;
+}
+
+#controls {
+  border: 1px lightgray solid;
+  border-radius: 10px;
+  background: linear-gradient(grey, white, black);
+  opacity: 0.9;
+  padding: 1.5em;
+}
+
+svg {
+  color: lightslategray;
+}
+
+progress {
+  width: 90%;
+  margin: 10px;
+  opacity: 0.6;
+}
+
+#currentlyPlayingSong {
+  font-size: 1.5em;
+  font-weight: bolder;
+  color: lightgrey;
+  text-shadow: -1px 2px whitesmoke, -1px 3px black, -1px 2px lightgrey;
+}
+
+#currentSong {
+  font-size: 1em;
+  font-weight: bolder;
+  color: white;
+  text-shadow: -1px 1px lightblue, -1px 3px black, -1px 1px white;
+}
+
+p {
+  font-weight: bolder;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-style: italic;
+}
